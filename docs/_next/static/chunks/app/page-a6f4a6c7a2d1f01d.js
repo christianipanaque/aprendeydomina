@@ -1,0 +1,16 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[931],{8001:function(e,r,t){Promise.resolve().then(t.bind(t,331))},331:function(e,r,t){"use strict";t.r(r),t.d(r,{default:function(){return u}});var n=t(3827),a=t(4090);/**
+ * @license lucide-react v0.447.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let s=e=>e.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase(),o=function(){for(var e=arguments.length,r=Array(e),t=0;t<e;t++)r[t]=arguments[t];return r.filter((e,r,t)=>!!e&&t.indexOf(e)===r).join(" ")};/**
+ * @license lucide-react v0.447.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */var l={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:2,strokeLinecap:"round",strokeLinejoin:"round"};/**
+ * @license lucide-react v0.447.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */let i=(0,a.forwardRef)((e,r)=>{let{color:t="currentColor",size:n=24,strokeWidth:s=2,absoluteStrokeWidth:i,className:c="",children:d,iconNode:u,...m}=e;return(0,a.createElement)("svg",{ref:r,...l,width:n,height:n,stroke:t,strokeWidth:i?24*Number(s)/Number(n):s,className:o("lucide",c),...m},[...u.map(e=>{let[r,t]=e;return(0,a.createElement)(r,t)}),...Array.isArray(d)?d:[d]])}),c=((e,r)=>{let t=(0,a.forwardRef)((t,n)=>{let{className:l,...c}=t;return(0,a.createElement)(i,{ref:n,iconNode:r,className:o("lucide-".concat(s(e)),l),...c})});return t.displayName="".concat(e),t})("MessageCircle",[["path",{d:"M7.9 20A9 9 0 1 0 4 16.1L2 22Z",key:"vv11sd"}]]),d=e=>{let{onClick:r}=e;return(0,n.jsxs)("button",{onClick:r,className:" bg-cyber-teal-500 hover:bg-cyber-teal-400  text-cyber-black font-bold  py-3 px-6  rounded-md  transition duration-300 ease-in-out  transform hover:scale-105  shadow-lg hover:shadow-cyber-teal-500/50  border-2 border-cyber-teal-300  focus:outline-none focus:ring-2 focus:ring-cyber-teal-300 focus:ring-opacity-50 text-lg sm:text-xl flex items-center justify-center space-x-2 ",children:[(0,n.jsx)(c,{size:24}),(0,n.jsx)("span",{children:"Comprar ya"})]})};function u(e){let{}=e;return(0,n.jsxs)("div",{className:"bg-cyber-gray max-w-screen-md mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center",children:[(0,n.jsx)("div",{children:(0,n.jsx)("img",{src:"./images/aprende-y-domina-lr.jpg",alt:"Aprende y Domina ChatGPT"})}),(0,n.jsx)("h1",{className:"text-cyber-teal-400 m-4",children:"Aprende y Domina ChatGPT"}),(0,n.jsx)("p",{className:"text-cyber-teal-200 m-4",children:"El PDF m\xe1s vendido en nuestro Per\xfa. Unete al movimiento."}),(0,n.jsx)("div",{className:"flex justify-center m-4",children:(0,n.jsx)(d,{onClick:()=>{window.open("https://wa.me/+51913607355?text=Me%20interesa%20comprar%20el%20libro%20Aprende%20y%20Domina%20ChatGPT","_blank")}})})]})}}},function(e){e.O(0,[971,69,744],function(){return e(e.s=8001)}),_N_E=e.O()}]);
