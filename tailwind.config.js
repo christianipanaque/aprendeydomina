@@ -1,3 +1,5 @@
+const plugin = require("tailwindcss/plugin");
+
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
@@ -10,6 +12,10 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        merriweather: ["Merriweather", "ui-serif", "serif"],
+        roboto: ["Roboto", "sans-serif"],
+      },
       colors: {
         "cyber-black": "#0a0a0a",
         "cyber-gray": "#1a1a1a",
@@ -31,5 +37,18 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addBase, theme }) {
+      addBase({
+        "*": {
+          margin: 0,
+          padding: 0,
+          boxSizing: "border-box",
+        },
+        body: {
+          fontFamily: theme("fontFamily.roboto"),
+        },
+      });
+    }),
+  ],
 };

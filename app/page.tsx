@@ -6,6 +6,8 @@ const WhatsAppCTAButton = ({ onClick }) => {
     <button
       onClick={onClick}
       className="
+        uppercase
+        font-black
         bg-cyber-teal-500 hover:bg-cyber-teal-400 
         text-cyber-black font-bold 
         py-3 px-6 
@@ -42,10 +44,40 @@ export default function Page({}) {
           alt="Aprende y Domina ChatGPT"
         />
       </div>
-      <h1 className="text-cyber-teal-400 m-4">Aprende y Domina ChatGPT</h1>
-      <p className="text-cyber-teal-200 m-4">
-        El PDF más vendido en nuestro Perú. Unete al movimiento.
-      </p>
+      <h1 className="text-cyber-teal-400 m-4 text-3xl uppercase font-black	">
+        Aprende y Domina <span className="text-cyber-white">ChatGPT</span>
+      </h1>
+
+      <div className="text-left font-extralight">
+        <p className="text-cyber-teal-300 m-4">
+          El PDF más vendido en el Perú. Unete al movimiento.
+        </p>
+
+        <p className="m-4">
+          <span>¿Cansado de obtener respuestas mediocres?</span> Aprende a
+          formular preguntas perfectas para que la IA te dé respuestas
+          impecables y útiles en todo momento.
+        </p>
+
+        <p className="m-4">
+          <span>
+            Ya sea que trabajes en marketing, tecnología, finanzas o ambulante,
+          </span>{" "}
+          tendrás el poder de adaptar las IA a cualquier sector y recibir
+          respuestas personalizadas con precisión quirúrgica.
+        </p>
+
+        <p className="m-4">
+          <span>Aprende a personalizar cada consulta, cada interacción,</span>{" "}
+          para obtener respuestas que realmente impacten tu negocio o proyecto.
+          No más preguntas mal formuladas, solo resultados.
+        </p>
+
+        <p className="text-cyber-teal-300 m-4">
+          Más de 1000+ comandos para ChatGPT. 300 páginas. 3 secciones. 36
+          categorías.
+        </p>
+      </div>
       <div className="flex justify-center m-4">
         <WhatsAppCTAButton onClick={handlePurchase} />
       </div>
