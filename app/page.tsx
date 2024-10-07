@@ -9,7 +9,7 @@ const WhatsAppCTAButton = ({ onClick }) => {
         uppercase
         font-black
         bg-cyber-teal-500 hover:bg-cyber-teal-400 
-        text-cyber-black font-bold 
+        text-cyber-black
         py-3 px-6 
         rounded-md 
         transition duration-300 ease-in-out 
@@ -22,7 +22,7 @@ const WhatsAppCTAButton = ({ onClick }) => {
       "
     >
       <MessageCircle size={24} />
-      <span>Comprar ya</span>
+      <span>Descargar PDF</span>
     </button>
   );
 };
@@ -48,35 +48,51 @@ export default function Page({}) {
         Aprende y Domina <span className="text-cyber-white">ChatGPT</span>
       </h1>
 
-      <div className="text-left font-extralight">
+      <div className="text-left">
         <p className="text-cyber-teal-300 m-4">
           El PDF más vendido en el Perú. Unete al movimiento.
         </p>
 
         <p className="m-4">
-          <span>¿Cansado de obtener respuestas mediocres?</span> Aprende a
-          formular preguntas perfectas para que la IA te dé respuestas
-          impecables y útiles en todo momento.
-        </p>
-
-        <p className="m-4">
-          <span>
-            Ya sea que trabajes en marketing, tecnología, finanzas o ambulante,
-          </span>{" "}
-          tendrás el poder de adaptar las IA a cualquier sector y recibir
-          respuestas personalizadas con precisión quirúrgica.
-        </p>
-
-        <p className="m-4">
-          <span>Aprende a personalizar cada consulta, cada interacción,</span>{" "}
-          para obtener respuestas que realmente impacten tu negocio o proyecto.
-          No más preguntas mal formuladas, solo resultados.
+          Obtendrás acceso a más de 1000+ comandos especializados,
+          cuidadosamente diseñados para mejorar la precisión de tus
+          interacciones con ChatGPT. Esto te permitirá estructurar consultas más
+          complejas y obtener respuestas altamente detalladas, resolviendo el
+          problema de no recibir la información correcta en tus consultas
+          actuales.
         </p>
 
         <p className="text-cyber-teal-300 m-4">
-          Más de 1000+ comandos para ChatGPT. 300 páginas. 3 secciones. 36
-          categorías.
+          Más de 1000+ comandos para ChatGPT.
         </p>
+
+        <p className="m-4">
+          Aprenderás a formular preguntas precisas y claras, eliminando la
+          frustración de obtener respuestas imprecisas o irrelevantes. El PDF te
+          enseña cómo adaptar cada comando a diferentes contextos, asegurando
+          que las respuestas de ChatGPT siempre sean útiles y ajustadas a tus
+          necesidades, acelerando tu aprendizaje y dominio de la herramienta.
+        </p>
+
+        <p className="text-cyber-teal-300 m-4">Más de 20+ categorías.</p>
+
+        <p className="m-4">
+          Maximizarás la efectividad de ChatGPT con comandos personalizables,
+          optimizando el tiempo que dedicas a la investigación y generación de
+          contenido. Este conocimiento te permitirá superar la barrera de no
+          aprovechar al máximo el potencial de la IA, proporcionándote
+          respuestas más rápidas y precisas, aumentando tu productividad.
+        </p>
+        <p className="text-cyber-teal-300 m-4">Más de 300+ páginas.</p>
+      </div>
+      <div>
+        WhatsApp:{" "}
+        <a
+          href="https://wa.me/message/W6AQ7BGM2AS7P1"
+          className="text-cyber-teal-300 underline"
+        >
+          913607355
+        </a>
       </div>
       <div className="flex justify-center m-4">
         <WhatsAppCTAButton onClick={handlePurchase} />
